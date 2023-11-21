@@ -25,11 +25,10 @@ body {
 }
 
 .card {
-    width: 1200px;
-    height: 250px;
     margin: 0 auto;
     display: flex;
-    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -42,16 +41,19 @@ body {
 .card__container {
     border: 1px solid var(--b-container);
     border-radius: 10px;
+    width: 315px;
 }
 
 .card__container1 {
     border: 1px solid var(--b-container1);
     border-radius: 10px;
+    width: 315px;
 }
 
 .card__container2 {
     border: 1px solid var(--b-container2);
     border-radius: 10px;
+    width: 315px;
 }
 
 .container__list {
